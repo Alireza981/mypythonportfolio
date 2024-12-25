@@ -44,7 +44,7 @@ left as black and unbolded, so that there is a contrast. All words that are in t
 
 
 
-![Sample HTML Highlighting Common Words](readmeImages/wordCountHTML.png)
+![Sample HTML Highlighting Common Words](readme_images/wordCountHTML.png)
 
 ## MLB Database Analyzer
 
