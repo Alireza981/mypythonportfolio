@@ -102,18 +102,6 @@ Both of these are codes found on the internet to familiarize myself with image
 reconignition. My goal is to start with these as examples and extend to more
 complex, self-written image recognition software.
 
-## Simple K-Means
-
-An implementation of a standard k-means clustering algorithm on 2D data. Made
-to produce sample plots for teaching about k-Means. Sample outputs below: 1)
-shows the steps of finding the clusters 2) shows a method for selecting the
-number of clusters to use by showing the final results for 1-9 clusters and
-then computing the mean distance between points and their cluster center. The
-kink can be used to determine the optimal number of clusters.
-
-![k-means steps to find clusters](readmeImages/kmeans_example.gif)
-![k-means steps to find k](readmeImages/kmeans_FindK.gif)
-
 ## Image Flattener
 
 This builds on the K-Means example above, by breaking an image into it's color
@@ -124,16 +112,7 @@ scheme. The image manipulation is built on Python's PILLOW library.
 
 ![example of different color clusterings](readmeImages/sunsetclusters.gif)
 
-## Chicago Crime Map
 
-This was build as a foray into using GIS (Geographic Information Systems) data
-alongside a general interest in how crime changes per neighborhood in Chicago.
-Outputs are heat maps of crimes in 2016 Chicago database. Violent crimes are
-defined as homicide, assault, battery, and criminal sexual assault (the
-Chicago PD produces these labels). 
-
-![Neighborhoods colored by number of violent crimes in
-2016](readmeImages/chicagoCrimeExample.png)
 
 ## Streaming Audio
 
