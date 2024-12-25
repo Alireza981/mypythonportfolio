@@ -42,14 +42,11 @@ left as black and unbolded, so that there is a contrast. All words that are in t
 
 ![60 Most Common Words in KJV](readmeImages/bibleWordCountPlot.png)
 
-![60 Most Common Words @RealDonaldTrum](readmeImages/realDonaldTrump.png)
+
 
 ![Sample HTML Highlighting Common Words](readmeImages/wordCountHTML.png)
 
 ## MLB Database Analyzer
-
-Full writeup here:
-https://redlegnation.com/2017/01/17/will-joey-votto-make-the-hall-of-fame-2/
 
 This code loads in a CSV from http://www.seanlahman.com/baseball-archive/statistics/ that contains stats from all years of the MLB. The code makes nested dictionaries for each player by the year of their stats. So for Jim Bob, there is one dictionary made of sub-dictionaries for each year of stats. So stats['jimbob'][2009] would return a dictionary of Jim Bob's stats from 2009. The code also santizes the inputs, replacing all missing data with -999 so these missing values can be easily checked and removed from future analyses. There are functions to draw the correlations between all possible statistical variable combinations, to compute the career average of a players stats, to remove pitchers from the main batting dictionary, to add whether or not a player has been added to the hall of fame, and to add a players personal information (name, date of birth, etc) to the dictionary so that the dictionary can be fully filtered into "only those players who would be inducted into the hall of fame as a position player (not a pitcher)" and then a machine learning algorithm can be applied to predict if a player will be inducted to the hall of fame (and the personal information can be used to associate the players name with the prediction). This is all done without PANDAS (python library) so that I can truly learn my way around python data structures. PANDAS will be attempted in another project.
 
@@ -64,9 +61,7 @@ of the algorithm. A threshold is computed by optimizing the F1 Score (a
 measure of how accurate the algorithm was) on the test data using the output
 probabilities. 
 
-![Example Correlations between Variables](readmeImages/OBPvsISO.png)
 
-![Example HOF Prediction](readmeImages/ProbabilityvsNumber.png)
 
 In it's first iteration, the algorithm predicts the following for players that
 are still player or have retired after the year 2005 (using a probability
@@ -99,23 +94,7 @@ online. No more work is planned for this, it was a simple chance to explore
 the pygame library, work on infinite loops with user input, and to build a few
 classes and class managers.
 
-## Animation Test
 
-This was a test of using MatPlotLib's built in animation functionality. I
-found many online examples of how to draw a Sine wave or similar, but I wanted
-to be able to draw a scatter plot that updates each time a new point is
-generated. I plan to extend this into making points appear on a map in my next
-example. Sample output below, plotting a 2D normal distribution sampling:
-
-![Example of Matplotlib Animation](readmeImages/myanimation.gif)
-
-## Chicago Crimes
-
-This is being used for two reasons: 1) to learn Pandas in detail, 2) To see if
-I can make predictions on where crimes will be. The first step is to read in
-all crime data from 2016, then organize it by neighborhood and then split out
-the dataframes into individual neighborhood dataframes for small scale
-analysis. After that, I will work on manipulating the full data set.
 
 ## Facial Recognition & Handwriting Recognition
 
