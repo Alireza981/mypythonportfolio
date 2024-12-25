@@ -40,7 +40,7 @@ left as black and unbolded, so that there is a contrast. All words that are in t
 80% most common words are bolded. This macro also makes a plot of the N most common words 
 (N is set in the plot making function as "limit"). This also makes a plot of the words and their counts and places it in the HTML page. The most common words in the King James Version of the Bible available in project Guttenburg are shown below. Following that is an example image counting the most common words in a random sample of 200 tweets from Donald Trump's Twitter account, which reused much of the TwitterCounter API access to allow access to the tweet-stream. Also shown is a sample of the generated HTML page is shown below that in image form, with the common words highlighted in their color.
 
-![60 Most Common Words in KJV](readmeImages/bibleWordCountPlot.png)
+
 
 
 
@@ -110,7 +110,7 @@ K-Means clustering is applied and all members of the cluster are forced to be
 the mean value of the cluster. Then the image is reproduced with the new color
 scheme. The image manipulation is built on Python's PILLOW library.
 
-![example of different color clusterings](readmeImages/sunsetclusters.gif)
+![example of different color clusterings](readme_images/sunsetclusters.gif)
 
 
 
@@ -121,4 +121,4 @@ plots the current inputs into the microphone. It grabs control of the
 microphone, samples the input repeatedly, and draws the raw input and a
 Fourier transform of the data. 
 
-![Audio plotting with Python](readmeImages/voice_demo.gif)
+![Audio plotting with Python](readme_images/voice_demo.gif)
