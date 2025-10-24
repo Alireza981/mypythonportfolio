@@ -1,8 +1,4 @@
-# mypythonportfolio
-This is my python portfolio
-![telegram icon](readme_images/telegram-logo-telegram-icon-transparent-social-media-icons-free-png.webp)
-You can contact me via telegram :) : t.me/call_the_saul
-# Learning Python
+
 
 These will be my forays into learning Python for data science. I'll track my
 projects here with a quick note on what each project does.
